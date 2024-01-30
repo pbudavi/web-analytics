@@ -326,7 +326,7 @@ setTimeout(delay, 2000);
 
     if (target.tagName === "A") {
       const linkId = target.textContent;
-      updateClickCount(linkId, "link_");
+      updateClickCount(linkId, "link_"); 
       changedPagename(isPageChanged);
     }
   }
